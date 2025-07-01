@@ -6,3 +6,6 @@
     <?php wp_head(); ?>
 </head>
 <body>
+    <header>
+        <span>Navbar</span>
+    </header>
