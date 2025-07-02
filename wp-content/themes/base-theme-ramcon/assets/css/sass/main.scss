@@ -2,9 +2,11 @@
 sass --watch wp-content/themes/base-theme-ramcon/assets/css/sass/main.scss:wp-content/themes/base-theme-ramcon/assets/css/style.min.css --style compressed
 */
 
-@import // Base
-  "base/base";
+// Base
+@use "base/base" as base;
 
-// Parts
+// Layouts
+@use "layouts/header" as header;
+@use "layouts/footer" as footer;
 
 // Pages

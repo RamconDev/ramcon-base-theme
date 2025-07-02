@@ -1,7 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 h1 {
-  color: green;
   font-size: 2rem;
 }
+
 p {
   font-size: 16px;
   line-height: 1.5;

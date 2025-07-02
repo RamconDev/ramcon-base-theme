@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/base/_base.scss"],"names":[],"mappings":"AAAA,GACE,YACA,eAEF,EACE,eACA,gBACA","file":"style.min.css"}
+{"version":3,"sourceRoot":"","sources":["sass/base/_base.scss","sass/layouts/_header.scss","sass/layouts/_footer.scss"],"names":[],"mappings":"AAAA,EACE,WACA,YAGF,KACE,aACA,iCACA,iBAGF,GACE,eAGF,EACE,eACA,gBACA,WClBF,OACE,sBACA,WACA,aCHF,OACE,sBACA,WACA,aACA","file":"style.min.css"}
