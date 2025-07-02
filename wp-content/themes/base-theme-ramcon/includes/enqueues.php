@@ -5,7 +5,7 @@
 add_action('wp_enqueue_scripts', 'global_enqueues');
 function global_enqueues () {
     // Bootstrap Enqueues
-    // bootstrap_enqueues();
+    bootstrap_enqueues();
 
     // SlickSlider Enqueues
     // slick_slider_enqueues();

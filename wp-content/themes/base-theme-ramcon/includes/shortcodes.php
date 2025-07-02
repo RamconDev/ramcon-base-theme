@@ -5,7 +5,7 @@
 function example_shortcode( $atts ) {
     $atts = shortcode_atts(
         [
-            'message' => '¡Hola, este es un saludo desde un shortcode!',
+            'message' => '¡Shortcode message!',
         ],
         $atts,
         'example_shortcode'

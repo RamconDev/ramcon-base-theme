@@ -11,5 +11,9 @@
 </head>
 <body>
     <header>
-        <span>Navbar</span>
+        <div class="container">
+            <div class="row">
+                <span>Navbar</span>
+            </div>
+        </div>
     </header>
