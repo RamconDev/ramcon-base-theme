@@ -19,8 +19,20 @@ function global_enqueues () {
     // Main Scripts
     wp_enqueue_script('main-js', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), time(), true);
 
-    if (is_front_page()) {
+    // if (is_front_page()) {
         //wp_enqueue_script('index-js', get_template_directory_uri() . '/assets/js/index.js', array('jquery'), time(), true);
+    // }
+
+    if (is_page_template('template-home.php')) {
+        slick_slider_enqueues();
+        wp_enqueue_script('template-home-script',get_template_directory_uri() . '/assets/js/template-home.js',array('jquery'),time(),true);
+
+        // get PHP data for a script [in this case obtain the url of the theme directory] data['templateUrl'] = get_template_directory_uri()
+        wp_localize_script('template-home-js','data',
+        array(
+            'templateUrl' => get_template_directory_uri()
+        )
+    );
     }
 }
 

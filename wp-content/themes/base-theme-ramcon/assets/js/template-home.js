@@ -1,5 +1,5 @@
 (function (root, $, undefined) {
   $(document).ready(function () {
-    console.log("Main scritp loaded");
+    console.log("template home scritp loaded");
   });
 })(this, jQuery);
